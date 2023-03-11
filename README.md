@@ -25,4 +25,4 @@
 
 五次断点触发之后，我搜集到了[内存布局相关信息](https://github.com/wqreytuk/heap_feng_shui/tree/main/heap_memory_layout_of_every_step)
 
-可以看到，bstr和数组都按照预想落入到了被释放的第四块和第五块内存中
+可以看到，bstr（的一部分）和数组（的一部分）都按照预想被分配到了前面被释放的第四块和第五块内存中
