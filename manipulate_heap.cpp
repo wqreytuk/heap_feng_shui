@@ -60,16 +60,16 @@ int main(int args, char** argv) {
     // 给一个array的起始地址和终止地址，去初始化vector
     // 哦哦，分配40字节，值是objref，但是地址在哪？怎么看
     // 不管了，直接还从heap[1]开始看
-    vector<int> array1(40, objRef);
-    vector<int> array2(40, objRef);
-    vector<int> array3(40, objRef);
-    vector<int> array4(40, objRef);
-    vector<int> array5(40, objRef);
-    vector<int> array6(40, objRef);
-    vector<int> array7(40, objRef);
-    vector<int> array8(40, objRef);
-    vector<int> array9(40, objRef);
-    vector<int> array10(40, objRef);
+    vector<long> array1(40, objRef);
+    vector<long> array2(40, objRef);
+    vector<long> array3(40, objRef);
+    vector<long> array4(40, objRef);
+    vector<long> array5(40, objRef);
+    vector<long> array6(40, objRef);
+    vector<long> array7(40, objRef);
+    vector<long> array8(40, objRef);
+    vector<long> array9(40, objRef);
+    vector<long> array10(40, objRef);
 
     test();
     system("PAUSE");
