@@ -53,7 +53,7 @@ int main(int args, char** argv) {
     HeapFree(defaultHeap, HEAP_NO_SERIALIZE, allocations[4]);
     test();
     // 给一个类申请一块内存，指针抓换成int值了
-    int objRef = (int)object;
+    long objRef = (long)object;
     printf("SomeObject address for Chunk 3 : 0x%016x\n", objRef);
     // 这是什么用法，哦哦哦，就是搞了一堆数组，值是40和object地址
     // 搞了10个，上面说错了，这个是使用array来初始化vector，具体意思就是
