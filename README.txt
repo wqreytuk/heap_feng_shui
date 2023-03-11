@@ -10,10 +10,10 @@
 
 
 
-[源代码](https://github.com/wqreytuk/heap_feng_shui/blob/main/manipulate_heap.cpp)
+(源代码)[https://github.com/wqreytuk/heap_feng_shui/blob/main/manipulate_heap.cpp]
 
 对代码进行了一点改动，在几个关键操作前后加上了用于下断点的test函数调用
 
-五次断点触发之后，我搜集到了[内存布局相关信息](https://github.com/wqreytuk/heap_feng_shui/tree/main/heap_memory_layout_of_every_step)
+五次断点触发之后，我搜集到了(内存布局相关信息)[https://github.com/wqreytuk/heap_feng_shui/tree/main/heap_memory_layout_of_every_step]
 
 可以看到，bstr和数组都按照预想落入到了被释放的第四块和第五块内存中
