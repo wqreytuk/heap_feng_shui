@@ -58,7 +58,7 @@ int main(int args, char** argv) {
     // 这是什么用法，哦哦哦，就是搞了一堆数组，值是40和object地址
     // 搞了10个，上面说错了，这个是使用array来初始化vector，具体意思就是
     // 给一个array的起始地址和终止地址，去初始化vector
-    // 哦哦，分配40字节，值是objref，但是地址在哪？怎么看  https://cplusplus.com/reference/vector/vector/vector/
+    // 哦哦，元素个数为40个，值是objref，但是地址在哪？怎么看  https://cplusplus.com/reference/vector/vector/vector/
     // 不管了，直接还从heap[1]开始看
     vector<long long> array1(40, objRef);
     vector<long long> array2(40, objRef);
