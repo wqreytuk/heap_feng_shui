@@ -8,6 +8,15 @@
 
 大概意思就是我们在触发LFH之前连续申请几块内存，然后释放中间的一块，之后再申请内存，然后再释放一块，然后再申请内存，变化过程如下：
 
+![image](https://user-images.githubusercontent.com/48377190/224503037-478a4a05-a70f-44a7-bfc8-17988dd93eaf.png)
+
+![image](https://user-images.githubusercontent.com/48377190/224503044-185d52f5-4ba0-4cdb-9989-35648fe3a3b7.png)
+
+![image](https://user-images.githubusercontent.com/48377190/224503058-39e9b19f-a354-4bc4-908c-9f5cce5453ac.png)
+
+![image](https://user-images.githubusercontent.com/48377190/224503067-a4722caa-00bb-42a5-9e4d-647da4ed8bec.png)
+
+![image](https://user-images.githubusercontent.com/48377190/224503074-2fc076e0-caf8-49ef-a8c3-008079122123.png)
 
 
 [源代码](https://github.com/wqreytuk/heap_feng_shui/blob/main/manipulate_heap.cpp)
